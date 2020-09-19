@@ -1,0 +1,19 @@
+{
+  "description": "REST API - Prof. Robson",
+  "name": "juninhosal/rest-api-robson-8semestre",
+  "type": "project",
+  "homepage": "https://dsdtrabalho-paulotarso.herokuapp.com/",
+  "license": "MIT",
+  "support": {
+    "forum": "http://forum.codeigniter.com/",
+    "wiki": "https://github.com/bcit-ci/CodeIgniter/wiki",
+    "irc": "irc://irc.freenode.net/codeigniter",
+    "source": "https://github.com/bcit-ci/CodeIgniter"
+  },
+  "require": {
+    "php": ">=7.3",
+    "composer/installers": "~1.0",
+    "ext-json": "*"
+  },
+  "require-dev": {}
+}
