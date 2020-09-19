@@ -10,4 +10,4 @@ echo "URL Git: https://github.com/juninhosal/rest-api-robson-8semestre<br />";
 echo "URL Heroku: https://dsdtrabalho-paulotarso.herokuapp.com<br /><br />";
 
 echo "O método GET foi utilizado na criação de todas as requests do trabalho<br />";
-echo "Para baixar a Collection Postman, utilize o END Point /???????.json";
+echo "Para baixar a Collection Postman, utilize o END Point /Trabalho.postman_collection.json";

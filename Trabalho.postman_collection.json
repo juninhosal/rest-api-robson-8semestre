@@ -1,0 +1,292 @@
+{
+	"info": {
+		"_postman_id": "4d57bfd5-5c7e-45f1-8dfd-b32631ac3533",
+		"name": "Trabalho Robson - Paulo de Tarso Salgado Junior",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Soma",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://dsdtrabalho-paulotarso.herokuapp.com/api/soma.php?num1=15&num2=17",
+					"protocol": "https",
+					"host": [
+						"dsdtrabalho-paulotarso",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"soma.php"
+					],
+					"query": [
+						{
+							"key": "num1",
+							"value": "15",
+							"description": "Valor principal"
+						},
+						{
+							"key": "num2",
+							"value": "17",
+							"description": "Valor a ser somado"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Subtração",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://dsdtrabalho-paulotarso.herokuapp.com/api/subtracao.php?num1=20&num2=17",
+					"protocol": "https",
+					"host": [
+						"dsdtrabalho-paulotarso",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"subtracao.php"
+					],
+					"query": [
+						{
+							"key": "num1",
+							"value": "20",
+							"description": "Valor principal"
+						},
+						{
+							"key": "num2",
+							"value": "17",
+							"description": "Valor a ser subtraido"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Divisão",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://dsdtrabalho-paulotarso.herokuapp.com/api/divisao.php?num1=10&num2=2",
+					"protocol": "https",
+					"host": [
+						"dsdtrabalho-paulotarso",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"divisao.php"
+					],
+					"query": [
+						{
+							"key": "num1",
+							"value": "10",
+							"description": "Valor principal"
+						},
+						{
+							"key": "num2",
+							"value": "2",
+							"description": "Valor a ser dividido"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Multiplicação",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://dsdtrabalho-paulotarso.herokuapp.com/api/multiplicacao.php?num1=3&num2=5",
+					"protocol": "https",
+					"host": [
+						"dsdtrabalho-paulotarso",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"multiplicacao.php"
+					],
+					"query": [
+						{
+							"key": "num1",
+							"value": "3",
+							"description": "Valor principal"
+						},
+						{
+							"key": "num2",
+							"value": "5",
+							"description": "Valor a ser multiplicado"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Raiz Quadrada",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://dsdtrabalho-paulotarso.herokuapp.com/api/raiz.php?num=9",
+					"protocol": "https",
+					"host": [
+						"dsdtrabalho-paulotarso",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"raiz.php"
+					],
+					"query": [
+						{
+							"key": "num",
+							"value": "9",
+							"description": "Valor principal"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Potencia",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://dsdtrabalho-paulotarso.herokuapp.com/api/potenciacao.php?base=3&exp=5",
+					"protocol": "https",
+					"host": [
+						"dsdtrabalho-paulotarso",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"potenciacao.php"
+					],
+					"query": [
+						{
+							"key": "base",
+							"value": "3",
+							"description": "Base da operação"
+						},
+						{
+							"key": "exp",
+							"value": "5",
+							"description": "Expoente"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Moda",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://dsdtrabalho-paulotarso.herokuapp.com/api/moda.php?nums=1;6;6;8;8",
+					"protocol": "https",
+					"host": [
+						"dsdtrabalho-paulotarso",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"moda.php"
+					],
+					"query": [
+						{
+							"key": "nums",
+							"value": "1;6;6;8;8",
+							"description": "Valores separados por \";\""
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Média Aritmética",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://dsdtrabalho-paulotarso.herokuapp.com/api/medaritmetica.php?nums=10;10;100",
+					"protocol": "https",
+					"host": [
+						"dsdtrabalho-paulotarso",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"medaritmetica.php"
+					],
+					"query": [
+						{
+							"key": "nums",
+							"value": "10;10;100",
+							"description": "Valores separados por \";\""
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Média Ponderada",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://dsdtrabalho-paulotarso.herokuapp.com/api/medponderada.php?nums=10;10;100&pesos=2;2;5",
+					"protocol": "https",
+					"host": [
+						"dsdtrabalho-paulotarso",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"medponderada.php"
+					],
+					"query": [
+						{
+							"key": "nums",
+							"value": "10;10;100",
+							"description": "Valores separados por \";\", a quantidade de números devem bater com a quantidade de pesos"
+						},
+						{
+							"key": "pesos",
+							"value": "2;2;5",
+							"description": "Valores separados por \";\", a quantidade de pesos devem bater com a quantidade de números"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
